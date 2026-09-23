@@ -38,9 +38,9 @@ no feature gates behind a paywall.
 | **[nomploy](https://github.com/Nomploy/nomploy)** | The platform itself — dashboard, API, build pipeline, Nomad bootstrap, backups and monitoring. AGPL-3.0. |
 | **[nomad-packs](https://github.com/Nomploy/nomad-packs)** | A curated [Nomad Pack](https://developer.hashicorp.com/nomad/tools/nomad-pack) registry: databases, object storage, messaging, observability, identity and dev tools. Apache-2.0. |
 | **[website](https://github.com/Nomploy/website)** | Marketing site and documentation monorepo behind nomploy.com and docs.nomploy.com. |
-| **[templates](https://github.com/Nomploy/templates)** | One-click application templates deployable straight from the dashboard. |
-| **[cli](https://github.com/Nomploy/cli)** | Command line client for driving a Nomploy instance from your terminal or CI. |
-| **[mcp](https://github.com/Nomploy/mcp)** | Model Context Protocol server, so AI agents can manage deployments. |
+| **[templates](https://github.com/Nomploy/templates)** | One-click application templates for the dashboard. A fork of Dokploy's catalogue, being adapted for Nomad. |
+| **[cli](https://github.com/Nomploy/cli)** | Command line client for driving an instance from your terminal or CI. A fork of Dokploy's CLI, being adapted. |
+| **[mcp](https://github.com/Nomploy/mcp)** | Model Context Protocol server, so AI agents can manage deployments. A fork of Dokploy's MCP package, being adapted. |
 
 ## Try it
 
