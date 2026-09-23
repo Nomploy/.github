@@ -1,0 +1,14 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Documentation
+    url: https://docs.nomploy.com
+    about: Installation, configuration and troubleshooting guides.
+  - name: Security vulnerability
+    url: https://github.com/Nomploy/.github/blob/main/SECURITY.md
+    about: Report it privately to contact@nomploy.com — never in a public issue.
+  - name: Nomad Packs
+    url: https://github.com/Nomploy/nomad-packs/issues
+    about: Request or contribute an infrastructure pack.
+  - name: Ask a question
+    url: https://github.com/Nomploy/.github/blob/main/SUPPORT.md
+    about: Where to get help with a Nomploy instance.

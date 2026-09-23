@@ -1,0 +1,78 @@
+name: Bug report
+description: Something in a Nomploy project does not work as documented.
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for the report. Please check the [docs](https://docs.nomploy.com)
+        and existing issues first — and never report a security vulnerability
+        here, email contact@nomploy.com instead.
+
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: What happened?
+      description: What you did, what you expected, and what happened instead.
+      placeholder: Deploying a compose service fails with ...
+    validations:
+      required: true
+
+  - type: textarea
+    id: reproduce
+    attributes:
+      label: Steps to reproduce
+      value: |
+        1.
+        2.
+        3.
+    validations:
+      required: true
+
+  - type: input
+    id: version
+    attributes:
+      label: Nomploy version
+      description: Shown in the dashboard, or the image tag you are running.
+      placeholder: v0.1.0 / ghcr.io/nomploy/nomploy:latest
+    validations:
+      required: true
+
+  - type: dropdown
+    id: install
+    attributes:
+      label: How did you install it?
+      options:
+        - install.sh on a fresh VPS
+        - Bootstrap Nomad on an existing server
+        - Docker image by hand
+        - Built from source
+        - Other
+    validations:
+      required: true
+
+  - type: textarea
+    id: environment
+    attributes:
+      label: Environment
+      description: OS and version, Nomad version, Consul version, single or multi server.
+      placeholder: |
+        OS: Ubuntu 24.04
+        Nomad: 1.9.3
+        Consul: 1.20.1
+        Servers: 1
+    validations:
+      required: true
+
+  - type: textarea
+    id: logs
+    attributes:
+      label: Logs
+      description: Relevant application, Nomad allocation or Traefik logs. Redact secrets.
+      render: shell
+
+  - type: textarea
+    id: extra
+    attributes:
+      label: Anything else?
+      description: Screenshots, a short clip, or context that might matter.
